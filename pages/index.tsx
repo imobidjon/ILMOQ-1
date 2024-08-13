@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import { SideNav } from "@/layout/sidebar";
+import { ThemeProvider } from "@/components/core/theme-provider/theme-provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
